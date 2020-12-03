@@ -17,6 +17,8 @@
 package cafe.josh.reflective.test;
 
 import java.util.Set;
+import java.util.UUID;
+
 import org.bukkit.Server;
 import org.bukkit.command.CommandSender;
 import org.bukkit.permissions.Permission;
@@ -114,5 +116,15 @@ public class MockCommandSender implements CommandSender {
     public void setOp(boolean value) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+
+	public void sendMessage(UUID arg0, String arg1) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void sendMessage(UUID arg0, String[] arg1) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }

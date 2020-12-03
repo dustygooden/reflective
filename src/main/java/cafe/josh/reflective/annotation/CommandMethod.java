@@ -16,8 +16,6 @@
  */
 package cafe.josh.reflective.annotation;
 
-import cafe.josh.reflective.CommandDefinition;
-
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
